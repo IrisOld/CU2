@@ -16,3 +16,16 @@ h2
     99%{    color:transparent;  }
     100%{    color:cornflowerblue;}
 }
+
+.rainbow{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color:rgb(201, 74, 74);    }
+    20%{    color:rgb(243, 223, 41); }
+    40%{    color:rgb(72, 170, 48);}
+    60%{    color:rgb(23, 140, 218);  }
+    80%{    color:rgb(122, 29, 165);}
+}
+
+
